@@ -10,7 +10,7 @@ public class MainController {
     
     @GetMapping
     public String hello(){
-        return "Hello!";
+        return "<div style='width:100%;height:100vh;justify-content:center;align-items:center;font-size:30px;display:flex; font-weight:bolder;color:blue;'>Aopa, bão fi?</div>";
     }
 
 }
